@@ -1,6 +1,7 @@
 import { AppRegistry } from 'react-native';
-import { default as firebase } from 'firebase';
 import App from './src/App';
+
+export { default as firebase } from 'firebase';
 
 console.ignoredYellowBox = [
   'Setting a timer'
